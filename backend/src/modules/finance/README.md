@@ -1,1 +1,0 @@
-Future finance module placeholder.
