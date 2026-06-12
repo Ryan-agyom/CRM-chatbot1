@@ -48,6 +48,16 @@ export default function ChatWidget() {
 
       <div className="response-box" aria-live="polite">{reply}</div>
       <p className="hint">Try: “Suggest a follow-up email for a new lead.”</p>
+      <div className="chat-examples">
+        <strong>Examples you can try:</strong>
+        <ul>
+          <li>Predict conversion probability for a lead with attributes (e.g., budget, industry, timeline).</li>
+          <li>Add a new lead: "Add lead: name=John Doe, email=john@example.com"</li>
+          <li>Update a lead: "Update lead 123 set status=contacted"</li>
+          <li>Delete a lead: "Delete lead 123"</li>
+          <li>Ask for predictions: "Which leads are likely to convert this month?"</li>
+        </ul>
+      </div>
     </section>
   );
 }

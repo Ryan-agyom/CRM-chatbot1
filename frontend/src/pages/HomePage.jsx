@@ -17,7 +17,8 @@ const chatbotCapabilities = [
     items: [
       "Lead qualification prompts",
       "Email and meeting suggestions",
-      "CRM-aware action ideas"
+      "CRM-aware action ideas",
+      "Create, read, update and delete lead records (CRUD)"
     ]
   },
   {
@@ -33,9 +34,9 @@ const chatbotCapabilities = [
     title: "Predictive Insights",
     description: "Surface intelligence from CRM analytics, campaign performance, and customer signal predictions.",
     items: [
-      "Conversion probability",
-      "Lead status trends",
-      "Response time estimates"
+      "Conversion probability predictions",
+      "Lead status and churn forecasting",
+      "Response time estimates and priority scoring"
     ]
   }
 ];
@@ -48,6 +49,10 @@ const highlightCards = [
   {
     title: "CRM Actions",
     description: "See how chatbot responses translate into lead, campaign, and support actions."
+  },
+  {
+    title: "Data Operations",
+    description: "Run dataset queries and perform CRUD operations directly from chat."
   },
   {
     title: "Easy Overview",

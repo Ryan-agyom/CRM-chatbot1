@@ -282,6 +282,19 @@ button:disabled {
   font-size: 0.95rem;
 }
 
+.chat-examples {
+  margin-top: 12px;
+  color: #42506a;
+}
+.chat-examples ul {
+  margin: 8px 0 0;
+  padding-left: 18px;
+}
+.chat-examples li {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
 .site-footer {
   text-align: center;
   margin-top: 34px;
