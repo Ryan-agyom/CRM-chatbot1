@@ -13,7 +13,7 @@ LOCAL_ENV = Path(__file__).resolve().parents[2] / ".env"
 load_dotenv(ROOT_ENV)
 load_dotenv(LOCAL_ENV, override=False)
 
-CHAT_MODEL = os.getenv("OLLAMA_CHAT_MODEL", "llama3").strip()
+CHAT_MODEL = os.getenv("OLLAMA_CHAT_MODEL", "llama3.2:3b").strip()
 OLLAMA_API_URL = os.getenv("OLLAMA_API_URL", "http://127.0.0.1:11434").strip()
 OLLAMA_API_KEY = os.getenv("OLLAMA_API_KEY", "").strip()
 

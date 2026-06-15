@@ -12,7 +12,7 @@ from langchain_ollama import OllamaLLM
 load_dotenv(Path(__file__).resolve().parents[3] / ".env")
 load_dotenv(Path(__file__).resolve().parents[2] / ".env", override=False)
 
-OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3").strip()
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3.2:3b").strip()
 OLLAMA_API_URL = os.getenv("OLLAMA_API_URL", "http://127.0.0.1:11434").strip()
 OLLAMA_API_KEY = os.getenv("OLLAMA_API_KEY", "").strip()
 
